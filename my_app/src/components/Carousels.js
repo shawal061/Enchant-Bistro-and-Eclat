@@ -1,6 +1,7 @@
 import React from "react";
+import '../css/searchbar.css';
 
-export default function Carousels() {
+export default function Carousels({ search, setSearch }) {
   return (
     <div>
       <div
@@ -10,70 +11,72 @@ export default function Carousels() {
         style={{ objectFit: "container !important" }}
       >
         <div className="carousel-inner" id="carousel">
-          <div className="carousel-caption" style={{ zIndex: "10" }}>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              ></input>
-              <button
-                className="btn btn-outline-success text-white bg-success"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-          </div>
+
+          {/* Carousel Image 1 */}
           <div className="carousel-item active">
             <img
-              src="https://shorturl.at/jqIP2"
+              src={`${process.env.PUBLIC_URL}/carousel/1.jpg`}
               className="d-block w-100"
               style={{ objectFit: "cover", maxHeight: "450px" }}
               alt="..."
-            ></img>
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://shorturl.at/eqzAH"
-              className="d-block w-100"
-              style={{ objectFit: "cover", maxHeight: "450px" }}
-              alt="..."
-            ></img>
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://shorturl.at/tRX28"
-              className="d-block w-100"
-              style={{ objectFit: "cover", maxHeight: "450px" }}
-              alt="..."
-            ></img>
+            />
           </div>
 
+          {/* Carousel Image 2 */}
+          <div className="carousel-item">
+            <img
+              src={`${process.env.PUBLIC_URL}/carousel/2.jpg`}
+              className="d-block w-100"
+              style={{ objectFit: "cover", maxHeight: "450px" }}
+              alt="..."
+            />
+          </div>
+
+          {/* Carousel Image 3 */}
+          <div className="carousel-item">
+            <img
+              src={`${process.env.PUBLIC_URL}/carousel/3.jpg`}
+              className="d-block w-100"
+              style={{ objectFit: "cover", maxHeight: "450px" }}
+              alt="..."
+            />
+          </div>
+
+          {/* Add more carousel items if needed */}
+
         </div>
+
+        {/* Search Bar */}
+        <div className="carousel-caption" style={{ zIndex: "10" }}>
+          <div className="input-container">
+            <input
+              className="input"
+              name="text"
+              type="text"
+              placeholder="Search for what you are craving right now!"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </div>
+        </div>
+
         <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
+
         <button
           className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>

@@ -11,14 +11,15 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-success">
+      {/* A Navbar is chosen from bootstrap templates */}
+      <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#2E86AB", zIndex: 1000 }}>
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/">
                   <img
-                    src={process.env.PUBLIC_URL + "/Clear Logo.png"} // Adjust the path based on your project structure
+                    src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"} // Adjust the path based on your project structure
                     alt="Logo"
                     className="navbar-brand"
                     style={{ maxWidth: "50px", maxHeight: "50px" }} // Adjust the size as needed

@@ -1,0 +1,12 @@
+Components hoilo reusable gula.
+Screen shajabo components diya.
+Ex: Navbar & Footer in Home page.
+Components nibo Screen e. Screen nibo App.js e.
+
+Comment: ctrl+/
+
+File structure: tree /f /a > tree.txt
+
+Using process.env.PUBLIC_URL makes sure the image paths are correctly resolved by React. It ensures that the images are accessed relative to the public directory, avoiding issues with relative paths that might not resolve correctly in different environments or build configurations.
+
+Settings -> Word Wrap (turned on)
