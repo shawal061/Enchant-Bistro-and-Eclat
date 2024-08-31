@@ -19,10 +19,10 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link to="/">
                   <img
-                    src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"} // Adjust the path based on your project structure
+                    src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"}
                     alt="Logo"
                     className="navbar-brand"
-                    style={{ maxWidth: "50px", maxHeight: "50px" }} // Adjust the size as needed
+                    style={{ maxWidth: "50px", maxHeight: "50px" }}
                   />
                 </Link>
               </li>
