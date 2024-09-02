@@ -30,6 +30,11 @@ export default function Home() {
     loadData();
   }, []);
 
+  useEffect(() => {
+    console.log("Food Categories:", foodCat);
+    console.log("Food Items:", foodItem);
+  }, [foodCat, foodItem]);
+
   return (
     <div>
       <Navbar />

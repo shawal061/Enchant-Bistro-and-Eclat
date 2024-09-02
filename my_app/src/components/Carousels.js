@@ -3,21 +3,21 @@ import '../css/searchbar.css';
 
 export default function Carousels({ search, setSearch }) {
   return (
-    <div>
+    <>
       <div
         id="carouselExampleControls"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
-        style={{ objectFit: "container !important" }}
+        style={{ objectFit: "cover !important" }}
       >
         <div className="carousel-inner" id="carousel">
 
           {/* Carousel Image 1 */}
           <div className="carousel-item active">
             <img
-              src={`${process.env.PUBLIC_URL}/carousel/1.jpg`}
-              className="d-block w-100"
-              style={{ objectFit: "cover", maxHeight: "450px" }}
+              src={`${process.env.PUBLIC_URL}/carousel/11.avif`}
+              className="d-block w-100 container-fluid"
+              style={{ objectFit: "contain", width: "100%", maxHeight: "450px" }}
               alt="..."
             />
           </div>
@@ -25,9 +25,9 @@ export default function Carousels({ search, setSearch }) {
           {/* Carousel Image 2 */}
           <div className="carousel-item">
             <img
-              src={`${process.env.PUBLIC_URL}/carousel/2.jpg`}
-              className="d-block w-100"
-              style={{ objectFit: "cover", maxHeight: "450px" }}
+              src={`${process.env.PUBLIC_URL}/carousel/22.avif`}
+              className="d-block w-100 container-fluid"
+              style={{ objectFit: "contain", width: "100%", maxHeight: "450px" }}
               alt="..."
             />
           </div>
@@ -35,20 +35,39 @@ export default function Carousels({ search, setSearch }) {
           {/* Carousel Image 3 */}
           <div className="carousel-item">
             <img
-              src={`${process.env.PUBLIC_URL}/carousel/3.jpg`}
-              className="d-block w-100"
-              style={{ objectFit: "cover", maxHeight: "450px" }}
+              src={`${process.env.PUBLIC_URL}/carousel/33.avif`}
+              className="d-block w-100 container-fluid"
+              style={{ objectFit: "contain", width: "100%", maxHeight: "450px" }}
               alt="..."
             />
           </div>
 
+          {/* Carousel Image 4 */}
+          <div className="carousel-item">
+            <img
+              src={`${process.env.PUBLIC_URL}/carousel/44.avif`}
+              className="d-block w-100 container-fluid"
+              style={{ objectFit: "contain", width: "100%", maxHeight: "450px" }}
+              alt="..."
+            />
+          </div>
+
+          {/* Carousel Image 5 */}
+          <div className="carousel-item">
+            <img
+              src={`${process.env.PUBLIC_URL}/carousel/55.avif`}
+              className="d-block w-100 container-fluid"
+              style={{ objectFit: "contain", width: "100%", maxHeight: "450px" }}
+              alt="..."
+            />
+          </div>
           {/* Add more carousel items if needed */}
 
         </div>
 
         {/* Search Bar */}
         <div className="carousel-caption" style={{ zIndex: "10" }}>
-          <div className="input-container">
+          <div className="input-coverer">
             <input
               className="input"
               name="text"
@@ -67,7 +86,6 @@ export default function Carousels({ search, setSearch }) {
           data-bs-slide="prev"
         >
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
         </button>
 
         <button
@@ -77,9 +95,8 @@ export default function Carousels({ search, setSearch }) {
           data-bs-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </>
   );
 }

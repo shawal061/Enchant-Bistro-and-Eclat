@@ -31,7 +31,7 @@
 
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://shawal_061:shawal@cluster0.ts7cgjv.mongodb.net/Restaurant_MERN?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://shawal_061:shawal_061@cluster0.ts7cgjv.mongodb.net/Restaurant_MERN?retryWrites=true&w=majority'; // Added the new password
 
 const connectToMongo = async () => {
     try {

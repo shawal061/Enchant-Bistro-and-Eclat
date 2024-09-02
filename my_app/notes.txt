@@ -13,3 +13,9 @@ Settings -> Word Wrap (turned on)
 
 31 August 2024:
 Changed the footer using https://mdbootstrap.com/
+
+02 September 2024:
+MongoDB gets offline after a long period of inactivity. Cards might not show if that occurs. Also, to export files to MongoDB, check out the 'Cmd Line Tools' for the appropriate format (go to the last of the same row of 'Collections').
+The command used: (This needs to be done in main command line, not on here)
+(Also, to update a table, I had to delete the previous one first and import the table again. Otherwise, it won't update. And IDK why.)
+mongoimport --uri mongodb+srv://shawal_061:shawal_061@cluster0.ts7cgjv.mongodb.net/Restaurant_MERN --collection food_items --jsonArray --file "E:\Enchanté Bistro and Eclat\my_app\foodData2.json"
