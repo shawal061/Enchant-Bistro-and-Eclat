@@ -40,7 +40,7 @@ export default function Home() {
       <Navbar />
 
       {/* Add top margin or padding to ensure carousel is below the navbar */}
-      <div style={{ marginTop: "10px" }}>
+      <div style={{ marginTop: "5px" }}>
         <Carousels search={search} setSearch={setSearch} />
 
         {/* Display filtered cards based on search */}

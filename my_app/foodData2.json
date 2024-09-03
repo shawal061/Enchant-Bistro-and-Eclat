@@ -9,67 +9,67 @@
                 "full": "220"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Savor the delightful fusion of flavors in our Chicken Fried Rice. A perfect medley of succulent chicken pieces, seasoned with aromatic Indian masalas, and tossed with fluffy Basmati rice. Each bite offers a burst of taste as the chicken, grilled to perfection, melds with the spices, creating a dish that's both satisfying and unforgettable. Ideal for a quick lunch or a hearty dinner, this dish brings comfort and warmth to your table."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Veg Fried Rice",
-        "img": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnJTIwZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "img": "https://media.istockphoto.com/id/1248253106/photo/vegetable-fried-rice.jpg?s=612x612&w=0&k=20&c=szFglnfgJavzYcxJqcoepd4UXtGU-pkzD9iRYb2S9NY=",
         "options": [
             {
                 "half": "110",
                 "full": "200"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Our Veg Fried Rice is a delightful journey into the world of fresh vegetables and fragrant spices. Each grain of Basmati rice is infused with the essence of Indian masalas, creating a flavorful base that perfectly complements the vibrant mix of garden-fresh veggies. Light yet satisfying, this dish is perfect for those who crave a wholesome, vegetarian option without compromising on taste. Ideal for any meal of the day."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Fish Biryani",
-        "img": "https://media.istockphoto.com/photos/king-fish-biryani-with-raita-served-in-a-golden-dish-isolated-on-dark-picture-id1409942571?b=1&k=20&m=1409942571&s=170667a&w=0&h=ozlMJf5hsDmS2sSdEdBWnoSZOEITef4qGMeWeq2lyTc=",
+        "img": "https://media.istockphoto.com/id/1328733914/photo/traditional-lamb-biriyani-mutton-with-yogurt-dip-raita.jpg?s=612x612&w=0&k=20&c=r5_W4aB-0gDOCzZ8vKvzWD862W5HedJn1ueNiTmDgZM=",
         "options": [
             {
                 "half": "200",
                 "full": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Dive into the exotic flavors of our Fish Biryani, where the richness of the ocean meets the aromatic zest of Indian spices. Tender, juicy fish is marinated in a blend of traditional masalas and then layered with fragrant Basmati rice. The result is a symphony of flavors that dances on your palate, offering a perfect balance of spice and subtle sweetness. This biryani is a must-try for seafood lovers looking for an unforgettable meal."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Chicken Biryani",
-        "img": "https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
+        "img": "https://media.istockphoto.com/id/1058029096/photo/chicken-biryani.jpg?s=612x612&w=0&k=20&c=yVV1RArkYz1fXf0Blpeuwxt0yTHHDnlOURVMJmYgAeI=",
         "options": [
             {
                 "half": "170",
                 "full": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Experience the timeless charm of our Chicken Biryani, a dish that encapsulates the essence of Indian cuisine. Juicy pieces of chicken are marinated in a blend of traditional spices and cooked to perfection before being layered with fluffy, aromatic Basmati rice. Each mouthful is a celebration of rich, savory flavors, making this dish a favorite for any occasion. Whether you're hosting a dinner party or enjoying a quiet meal at home, our Chicken Biryani is sure to impress."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Veg Biryani",
-        "img": "https://media.istockphoto.com/photos/veg-biryani-picture-id1363306527?b=1&k=20&m=1363306527&s=170667a&w=0&h=VCbro7CX8nq2kruynWOCO2GbMGCea2dDJy6O6ebCKD0=",
+        "img": "https://media.istockphoto.com/id/1442604609/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=612x612&w=0&k=20&c=nqGTWfjt4yid0dtWYU6X3MiKnImLsml94aRBEAPgXAA=",
         "options": [
             {
                 "half": "150",
                 "full": "260"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Our Veg Biryani is a vibrant celebration of flavors and textures, crafted for those who appreciate the beauty of vegetarian cuisine. Packed with fresh vegetables, each cooked to retain its unique flavor, and seasoned with an exquisite blend of Indian spices, this biryani offers a satisfying and wholesome dining experience. The fragrant Basmati rice serves as the perfect canvas, allowing the spices and vegetables to shine in every bite. A true delight for the senses."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Prawns Fried Rice",
-        "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027__340.jpg",
+        "img": "https://media.istockphoto.com/id/489169106/photo/fried-rice.jpg?s=612x612&w=0&k=20&c=RiYBUZQC701oqif4zjKWEE1v3JoJhuzAu9LWLBYLelQ=",
         "options": [
             {
                 "half": "120",
                 "full": "220"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Treat yourself to a taste of the sea with our Prawns Fried Rice. Succulent prawns are stir-fried to perfection, blending seamlessly with fragrant Basmati rice and a medley of Indian spices. The prawns add a sweet, tender contrast to the richly spiced rice, creating a dish that's both luxurious and comforting. Whether you're in the mood for something light or a more filling meal, this dish offers the perfect balance of flavor and texture."
     },
     {
         "CategoryName": "Starter",
@@ -81,7 +81,7 @@
                 "full": "200"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Indulge in the spicy and savory delight of our Chilli Paneer, a classic Indo-Chinese starter that never fails to impress. Soft cubes of paneer are stir-fried with crunchy bell peppers and onions, all tossed in a fiery and tangy sauce. Each bite delivers a perfect balance of heat and flavor, making it an irresistible choice for anyone who loves a kick of spice. Whether you're looking for a delicious appetizer or a side dish to complement your meal, Chilli Paneer is sure to satisfy your cravings."
     },
     {
         "CategoryName": "Starter",
@@ -93,7 +93,7 @@
                 "full": "260"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Paneer 65 is a spicy and flavorful South Indian-inspired starter that will awaken your taste buds. This dish features tender paneer cubes marinated in a special blend of spices and deep-fried to golden perfection. The result is a crispy, tangy, and slightly fiery treat that's perfect for kicking off any meal. Whether you're a fan of paneer or simply looking to try something new, Paneer 65 is a must-try dish that will leave you craving more."
     },
     {
         "CategoryName": "Starter",
@@ -105,7 +105,7 @@
                 "full": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Our Chicken Tikka is a tantalizing starter that showcases the rich flavors of Indian cuisine. Juicy chunks of chicken are marinated in a mixture of yogurt and spices, then grilled to perfection, resulting in a smoky, flavorful dish that's both tender and succulent. Served with a side of fresh salad and mint chutney, Chicken Tikka is a crowd-pleaser that's perfect for any occasion, whether you're hosting a party or enjoying a quiet dinner at home."
     },
     {
         "CategoryName": "Starter",
@@ -117,7 +117,7 @@
                 "full": "250"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Paneer Tikka is a vegetarian delight that's as flavorful as it is satisfying. Chunks of paneer are marinated in a mix of yogurt and spices, then skewered and grilled until they're charred and smoky. The result is a dish that's rich in flavor, with a perfect balance of spice and creaminess. Ideal as a starter or even a main course, Paneer Tikka is a versatile dish that appeals to vegetarians and meat-lovers alike."
     },
     {
         "CategoryName": "Pizza",
@@ -130,7 +130,7 @@
                 "large": "350"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Our Chicken Cheese Pizza is a feast for the senses, combining the rich flavors of tender chicken and gooey melted cheese on a perfectly crisp crust. Each bite offers a delightful blend of savory chicken, zesty tomato sauce, and a generous layer of cheese, making it an indulgent treat for any pizza lover. Whether you're grabbing a quick bite or sharing with friends, this pizza is sure to satisfy your cravings and leave you wanting more."
     },
     {
         "CategoryName": "Pizza",
@@ -143,84 +143,84 @@
                 "large": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMade using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+        "description": "Enjoy the fresh and vibrant flavors of our Mix Veg Pizza, a vegetarian masterpiece that's loaded with a variety of colorful vegetables. Topped with a rich tomato sauce and a layer of melted cheese, this pizza is both hearty and healthy. The crisp crust perfectly complements the tender vegetables, making it a delicious option for any meal. Whether you're a vegetarian or just looking for something lighter, our Mix Veg Pizza is the perfect choice."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Mutton Biryani",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1457374973/photo/beef-biryani.jpg?s=612x612&w=0&k=20&c=w-DETu9fi6FqedELEpvilK9cZRCf8nSQtaR9kV-6iaA=",
         "options": [
             {
                 "half": "180",
                 "full": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqSpiced rice cooked with flavorful Indian spices and tender mutton pieces, creating a delicious Biryani."
+        "description": "Indulge in the rich and aromatic flavors of our Mutton Biryani, a dish that embodies the essence of Indian cuisine. Tender pieces of mutton are cooked to perfection with fragrant Basmati rice and a blend of traditional spices, creating a dish that's both hearty and satisfying. Each bite offers a perfect balance of spice and savory meat, making it a must-try for any biryani lover. Whether you're enjoying it for lunch or dinner, our Mutton Biryani is sure to impress."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Egg Fried Rice",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/172789635/photo/asian-chinese-fried-rice-with-vegetable-and-egg-with-chopsticks.jpg?s=612x612&w=0&k=20&c=zxOtoAxVTLn8EvwGIl79IsEfEhtgw1Xgy9qx_Ctw3U4=",
         "options": [
             {
                 "half": "100",
                 "full": "180"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA delightful combination of fried rice with scrambled eggs, veggies, and special seasoning."
+        "description": "Our Egg Fried Rice is a simple yet satisfying dish that's perfect for any time of day. Fluffy Basmati rice is stir-fried with scrambled eggs, fresh vegetables, and a touch of seasoning, creating a dish that's both comforting and flavorful. Whether you're looking for a quick lunch or a light dinner, this fried rice is a versatile option that pairs well with a variety of other dishes. Enjoy the classic taste of Egg Fried Rice with every bite."
     },
     {
         "CategoryName": "Biryani/Rice",
-        "name": "Vegetable Pulao",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "name": "Veg Pulao",
+        "img": "https://media.istockphoto.com/id/1307917247/photo/bowl-of-instant-noodles-with-spices-food-ingredients.jpg?s=612x612&w=0&k=20&c=1SjDh_f2kd4n18Z6wPZQNLSGIylSdExeTfPP6tyseDM=",
         "options": [
             {
                 "half": "90",
                 "full": "160"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqFragrant and aromatic rice dish cooked with mixed vegetables, spices, and herbs."
+        "description": "Vegetable Pulao is a vibrant and aromatic rice dish that combines fragrant basmati rice with a medley of fresh vegetables and a blend of traditional spices. Cooked to fluffy perfection, this pulao offers a delightful balance of flavors and textures, making it a wholesome and satisfying meal. Perfect as a main course or a side dish, Vegetable Pulao caters to vegetarians and anyone seeking a healthy, flavorful option."
     },
     {
         "CategoryName": "Starter",
         "name": "Chicken Wings",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/183245675/photo/hot-chicken-wing-platter.jpg?s=612x612&w=0&k=20&c=Il2DMtWdWkzao7f2DPgwlqlc2hmeDVFh8JFvaLNsdWs=",
         "options": [
             {
                 "half": "140",
                 "full": "240"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqCrispy and succulent chicken wings marinated with special spices and served with a tangy sauce."
+        "description": "Indulge in our Chicken Wings, featuring crispy and succulent wings marinated in a special blend of spices and grilled to perfection. Each bite offers a perfect balance of flavor and texture, enhanced by a tangy sauce that complements the savory meat. Served with a side of fresh vegetables or dipping sauces, our Chicken Wings make for an irresistible starter, perfect for sharing with friends or enjoying as a delicious appetizer."
     },
     {
         "CategoryName": "Starter",
         "name": "Fish Fry",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/520326646/photo/beer-battered-fish-bites-with-tarter-sauce.jpg?s=612x612&w=0&k=20&c=kD7gwcMIQB987r4ayL2GyT_QzR7vECTU47XWgxoq6hM=",
         "options": [
             {
                 "half": "160",
                 "full": "280"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqFresh fish coated in a seasoned batter and deep-fried to perfection, creating a delightful starter."
+        "description": "Savor our Fish Fry, where fresh fish fillets are coated in a seasoned batter and deep-fried until golden and crispy. This delightful starter offers a perfect crunch on the outside while maintaining tender and flaky fish on the inside. Served with a wedge of lemon and a side of tangy sauce, Fish Fry is an excellent choice for seafood enthusiasts looking for a tasty and satisfying appetizer."
     },
     {
         "CategoryName": "Starter",
         "name": "Veg Spring Rolls",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1070157508/photo/deep-fried-spring-rolls.jpg?s=612x612&w=0&k=20&c=vrq5t6FP6Te-4beX7enWcUAT2g8fijykZqhJ4jTMY4M=",
         "options": [
             {
                 "half": "80",
                 "full": "150"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqCrispy and flavorful rolls filled with mixed vegetables, wrapped and fried until golden brown."
+        "description": "Enjoy our Veg Spring Rolls, featuring a crisp and golden exterior filled with a savory mixture of fresh vegetables and aromatic herbs. These delightful rolls are lightly fried to achieve a perfect crunch, making them an ideal starter for any meal. Served with a side of sweet chili sauce or soy dip, our Veg Spring Rolls are a delicious and satisfying option for vegetarians and those seeking a light, flavorful appetizer."
     },
     {
         "CategoryName": "Pizza",
         "name": "Margherita Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1414575281/photo/a-delicious-and-tasty-italian-pizza-margherita-with-tomatoes-and-buffalo-mozzarella.jpg?s=612x612&w=0&k=20&c=v8mdiAa_5NaRYtIscClXe85lLzkx7loSd9_pJWt9G2o=",
         "options": [
             {
                 "regular": "90",
@@ -228,12 +228,12 @@
                 "large": "280"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqClassic pizza topped with fresh tomatoes, mozzarella cheese, basil, and a drizzle of olive oil."
+        "description": "Enjoy the timeless classic, our Margherita Pizza, topped with fresh tomatoes, creamy mozzarella cheese, fragrant basil leaves, and a drizzle of extra virgin olive oil. Baked on a perfectly crisp crust, this pizza offers a simple yet delightful combination of flavors that highlight the quality of each ingredient. Ideal for those who appreciate a traditional and elegant pizza experience."
     },
     {
         "CategoryName": "Pizza",
         "name": "Pepperoni Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1146537166/photo/pepperoni-pizza-close-up.jpg?s=612x612&w=0&k=20&c=by8vNy_dFZUqTeKYPmrIVbG10cN9t1mhqN1jMpVsu88=",
         "options": [
             {
                 "regular": "100",
@@ -241,12 +241,12 @@
                 "large": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA savory pizza topped with generous slices of pepperoni and melted cheese for a delightful experience."
+        "description": "Savor our Pepperoni Pizza, featuring generous slices of spicy pepperoni and melted mozzarella cheese atop a rich tomato sauce. Baked to a perfect golden brown, this pizza offers a satisfying combination of savory flavors and a crispy crust. Perfect for meat lovers and anyone craving a classic, hearty pizza, our Pepperoni Pizza is a favorite choice for any pizza enthusiast."
     },
     {
         "CategoryName": "Pizza",
         "name": "Vegetarian Delight Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1260145384/photo/vegan-pumpkin-pizza-with-broccoli-chickpeas-and-spinach.jpg?s=612x612&w=0&k=20&c=4r3uPeRJcmAUQyHc5gzsT-3G419fjhmgkwzdn0_BJy0=",
         "options": [
             {
                 "regular": "95",
@@ -254,12 +254,12 @@
                 "large": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA vegetarian pizza loaded with assorted veggies, creating a burst of flavors in every bite."
+        "description": "Indulge in our Vegetarian Delight Pizza, loaded with a vibrant assortment of fresh vegetables, including bell peppers, onions, mushrooms, olives, and tomatoes. Combined with a rich tomato sauce and a generous layer of melted cheese, this pizza offers a burst of flavors and textures in every bite. Perfect for vegetarians and those seeking a wholesome and flavorful pizza option."
     },
     {
         "CategoryName": "Pizza",
         "name": "Chicken BBQ Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/489593343/photo/bbq-chicken-pizza.jpg?s=612x612&w=0&k=20&c=Lx264tmxrp3wpcwLdRdJyIvi3Yxm56jj2TW5WeoU8FI=",
         "options": [
             {
                 "regular": "110",
@@ -267,12 +267,12 @@
                 "large": "340"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA mouth-watering pizza featuring tender pieces of BBQ chicken, onions, and a flavorful barbecue sauce."
+        "description": "Try our Chicken BBQ Pizza, featuring tender pieces of grilled BBQ chicken, caramelized onions, and a smoky barbecue sauce layered over a bed of melted cheese. Baked to perfection on a crispy crust, this pizza offers a delicious blend of sweet and savory flavors that will satisfy your taste buds. Ideal for those who love a bold and hearty pizza experience with a touch of smoky goodness."
     },
     {
         "CategoryName": "Pizza",
         "name": "Hawaiian Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/184928081/photo/hawaiian-pizza.jpg?s=612x612&w=0&k=20&c=6vTk3f4lUMIVM2G73F4dwz53PhEq2-x3Z3_kzBWQZzo=",
         "options": [
             {
                 "regular": "95",
@@ -280,12 +280,12 @@
                 "large": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqAn exotic pizza with a tropical twist, featuring ham, pineapple, and a blend of cheeses."
+        "description": "Experience the tropical flavors of our Hawaiian Pizza, topped with succulent ham, sweet pineapple chunks, and a generous layer of melted cheese. Baked on a perfectly crisp crust, this pizza combines savory and sweet elements for a unique and delightful taste. Perfect for those who enjoy a flavorful and exotic pizza option, our Hawaiian Pizza brings a sunny twist to your meal."
     },
     {
         "CategoryName": "Pizza",
         "name": "Mushroom Lovers Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1223648852/photo/homemade-pizza-with-beer.jpg?s=612x612&w=0&k=20&c=cnUXjVi3ak6086kBvB2aYA3gGhrY5MZl0_XB1oEJQXI=",
         "options": [
             {
                 "regular": "100",
@@ -293,12 +293,12 @@
                 "large": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA pizza crafted for mushroom enthusiasts, loaded with a variety of mushrooms and a cheesy goodness."
+        "description": "Delight in our Mushroom Lovers Pizza, crafted for enthusiasts of earthy and savory flavors. Loaded with a variety of fresh mushrooms, including button, portobello, and shiitake, and smothered in melted cheese, this pizza offers a rich and indulgent experience. Enhanced with garlic, herbs, and a drizzle of olive oil, our Mushroom Lovers Pizza is a perfect choice for those seeking a hearty and flavorful vegetarian option."
     },
     {
         "CategoryName": "Pizza",
         "name": "Meat Feast Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/174912581/photo/pizza-from-the-top-super-deluxeo.jpg?s=612x612&w=0&k=20&c=xarY-HSYeFtlVR9KZTN-7MCzEauxytmQuPnqViSKBCY=",
         "options": [
             {
                 "regular": "120",
@@ -306,84 +306,84 @@
                 "large": "360"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqFor meat lovers, this pizza is topped with a medley of meats like pepperoni, sausage, ham, and more."
+        "description": "Indulge in our Meat Feast Pizza, a carnivore's dream come true. Topped with a hearty medley of meats, including pepperoni, sausage, ham, and bacon, all nestled under a generous layer of melted cheese and rich tomato sauce. Baked to perfection on a crispy crust, this pizza delivers a robust and satisfying flavor profile that meat lovers will adore. Perfect for sharing with friends or enjoying as a hearty meal."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Shrimp Biryani",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1629228766/photo/prawn-curry-with-basmati-rice.jpg?s=612x612&w=0&k=20&c=aN7BKXwxvaAgvf7nq1lM2F7oRejHEbz9h4jvt151_pU=",
         "options": [
             {
                 "half": "190",
                 "full": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA delectable biryani featuring succulent shrimp cooked with aromatic spices and basmati rice."
+        "description": "Our Shrimp Biryani is a luxurious take on the classic biryani, featuring succulent shrimp cooked with fragrant basmati rice and infused with a rich blend of spices and herbs. Each bite delivers a harmonious combination of tender seafood and aromatic flavors, enhanced by the addition of caramelized onions, fresh cilantro, and a hint of saffron. Ideal for seafood lovers, this biryani promises an unforgettable culinary experience."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Beef Biryani",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1457374973/photo/beef-biryani.jpg?s=612x612&w=0&k=20&c=w-DETu9fi6FqedELEpvilK9cZRCf8nSQtaR9kV-6iaA=",
         "options": [
             {
                 "half": "200",
                 "full": "340"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA rich and flavorful biryani with tender pieces of beef, cooked to perfection with fragrant spices."
+        "description": "Experience the robust flavors of our Beef Biryani, where tender chunks of beef are slow-cooked with basmati rice and a blend of savory spices. This hearty dish is enriched with caramelized onions, fresh herbs, and a touch of yogurt, creating a perfect balance of spice and tenderness. Whether for a special occasion or a comforting meal, our Beef Biryani is sure to satisfy your cravings for a traditional and flavorful dish."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Keema Pulao",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/2150383642/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=612x612&w=0&k=20&c=pO2rE-qk6Zhe4bwQOdfFHFkSK3RVQHs09pPp_ceL7TQ=",
         "options": [
             {
                 "half": "150",
                 "full": "260"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA delicious pulao made with spiced minced meat, creating a hearty and savory rice dish."
+        "description": "Keema Pulao is a delicious fusion of savory minced meat and aromatic basmati rice, cooked together with a blend of spices, herbs, and vegetables. This hearty and flavorful pulao offers a perfect balance of protein and carbohydrates, making it a satisfying meal for any time of day. Garnished with fresh cilantro and served with a side of raita or salad, Keema Pulao is a delightful option for both lunch and dinner."
     },
     {
         "CategoryName": "Starter",
         "name": "Samosa",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/181073533/photo/vegetarian-samosas-with-chutney.jpg?s=612x612&w=0&k=20&c=AiNnAZDxraXM5e1ZUqm6Mku3MNvTWkkvs6MRoSgkPhw=",
         "options": [
             {
                 "half": "70",
                 "full": "130"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqTriangular pastry pockets filled with a savory mixture of spiced potatoes, peas, and other delightful ingredients."
+        "description": "Try our classic Samosas, triangular pastry pockets filled with a savory blend of spiced potatoes, peas, and aromatic herbs. Deep-fried to a crispy golden brown, these delicious appetizers offer a perfect combination of crunchy exterior and flavorful filling. Served with tangy chutney or mint sauce, our Samosas are a beloved starter that delights both traditional and modern palates alike."
     },
     {
         "CategoryName": "Starter",
         "name": "Mushroom Tikka",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1286704566/photo/image-of-turquoise-blue-cooking-pan-filled-with-butter-chicken-tikka-curry-large-chunks-of.jpg?s=612x612&w=0&k=20&c=OLP7dEK6tyVtaUZAGC9SYftn9JOanU7IibSRs_F37DA=",
         "options": [
             {
                 "half": "140",
                 "full": "240"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMushroom chunks marinated in a flavorful tikka masala and grilled to perfection."
+        "description": "Our Mushroom Tikka features succulent mushroom chunks marinated in a rich and flavorful tikka masala, then grilled to perfection. This vegetarian delight offers a smoky, tender texture with a vibrant blend of spices that enhances the natural umami of the mushrooms. Served with fresh salad and tangy chutney, Mushroom Tikka is a perfect starter for those seeking a hearty and delicious appetizer."
     },
     {
         "CategoryName": "Starter",
         "name": "Chicken Lollipop",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1261880308/photo/honey-garlic-lollipop-chicken-wings-with-carrots-celery-and-ranch-dip.jpg?s=612x612&w=0&k=20&c=-FgBn4dxi6Z90E1ZhJ9z07PkeWsm7_KvPjZ2j3LAHBA=",
         "options": [
             {
                 "half": "160",
                 "full": "280"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqChicken wings frenched to resemble lollipops, marinated, and deep-fried for a delightful starter."
+        "description": "Experience our Chicken Lollipop, where chicken wings are frenched to resemble lollipops, marinated in a special blend of spices, and deep-fried to crispy perfection. These delightful appetizers offer a juicy and flavorful bite, served with a side of tangy sauce for dipping. Perfect for sharing or as a standout starter, Chicken Lollipop is a favorite among both kids and adults alike."
     },
     {
         "CategoryName": "Pizza",
         "name": "Veg Supreme Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1390128205/photo/pizza.jpg?s=612x612&w=0&k=20&c=-CwUkLBJE2ys2-Ksxf38jT95UTitbxfc4tiX2OJnbpA=",
         "options": [
             {
                 "regular": "105",
@@ -391,12 +391,12 @@
                 "large": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqAn assorted vegetarian pizza featuring a medley of fresh veggies, olives, and cheese."
+        "description": "Our Veg Supreme Pizza is an assorted vegetarian masterpiece, featuring a medley of fresh vegetables, including bell peppers, onions, mushrooms, olives, and tomatoes. Combined with a rich tomato sauce and a generous layer of melted cheese, this pizza offers a burst of flavors and textures in every slice. Perfect for vegetarians and those seeking a hearty and satisfying pizza option, our Veg Supreme Pizza is a delightful addition to any meal."
     },
     {
         "CategoryName": "Pizza",
         "name": "Buffalo Chicken Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/171332132/photo/barbecue-chicken-with-bacon-pizza.jpg?s=612x612&w=0&k=20&c=RNgfEr7SDyakHLvzP66WqFf73a3YTlEgmAkKqxHy9Sw=",
         "options": [
             {
                 "regular": "115",
@@ -404,12 +404,12 @@
                 "large": "350"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA zesty pizza topped with spicy buffalo chicken, blue cheese, and a drizzle of buffalo sauce."
+        "description": "Spice up your meal with our Buffalo Chicken Pizza, topped with spicy buffalo chicken, creamy blue cheese crumbles, and a drizzle of tangy buffalo sauce. Baked on a perfectly crisp crust, this pizza offers a bold and zesty flavor profile that pairs the heat of buffalo sauce with the richness of melted cheese. Perfect for those who enjoy a fiery and flavorful pizza experience."
     },
     {
         "CategoryName": "Pizza",
         "name": "Margarita Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1285040380/photo/vegetable-pizza.jpg?s=612x612&w=0&k=20&c=Lf2P-EMltwxjGHTJNfs6lbfmCukrS6IjnQdgZ0tzhto=",
         "options": [
             {
                 "regular": "95",
@@ -417,84 +417,84 @@
                 "large": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA classic Margarita pizza with tomato, mozzarella, and fresh basil for a timeless pizza experience."
+        "description": "Enjoy our Margarita Pizza, a delicious variation of the classic Margherita, featuring fresh tomatoes, creamy mozzarella cheese, and fragrant basil leaves, with a hint of garlic. Baked to perfection on a crisp crust, this pizza offers a harmonious blend of flavors that are both traditional and inviting. Perfect for those who appreciate a simple yet flavorful pizza experience."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Hyderabadi Biryani",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1467064666/photo/chicken-biryani-with-basmati-rice.jpg?s=612x612&w=0&k=20&c=1UNeJ4JUn_BxeX6fKP7x4a2p-LDgLJXydWlfZCV9KcI=",
         "options": [
             {
                 "half": "180",
                 "full": "300"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA flavorful and aromatic Hyderabadi-style chicken biryani cooked with fragrant basmati rice and traditional spices."
+        "description": "Our Hyderabadi Biryani is a timeless classic that brings the authentic taste of Hyderabad to your table. Featuring marinated chicken or mutton, basmati rice, and a rich blend of spices, this biryani is cooked using the traditional dum method to infuse every grain with deep, aromatic flavors. Enhanced with fried onions, fresh mint, and saffron strands, our Hyderabadi Biryani offers a luxurious and satisfying dining experience."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Paneer Pulao",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1244156020/photo/prawn-curry.jpg?s=612x612&w=0&k=20&c=_BI-DJUcm3bCl5hteY679xwHeC8vTXs_vQFpH2b1GFs=",
         "options": [
             {
                 "half": "130",
                 "full": "240"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA delightful pulao made with succulent paneer pieces, aromatic spices, and fragrant basmati rice."
+        "description": "Paneer Pulao is a delightful vegetarian dish that combines tender paneer cubes with aromatic basmati rice, fresh vegetables, and a blend of spices. This flavorful pulao offers a satisfying mix of textures and tastes, making it a perfect main course or a hearty side dish. Garnished with fresh herbs and served with raita or pickles, Paneer Pulao is an excellent choice for those seeking a wholesome and delicious meal."
     },
     {
         "CategoryName": "Biryani/Rice",
         "name": "Chicken Pulao",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1438166185/photo/sweet-crispy-korean-fried-chicken.jpg?s=612x612&w=0&k=20&c=uNd2xLloDLOOn6U89Od0CihWgrypRycyJJus0iUFJoU=",
         "options": [
             {
                 "half": "160",
                 "full": "280"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA scrumptious pulao made with tender chicken pieces, flavorful spices, and basmati rice for a hearty meal."
+        "description": "Our Chicken Pulao features juicy chicken pieces cooked with fragrant basmati rice and a medley of spices and vegetables. This comforting and flavorful dish offers a perfect blend of protein and carbohydrates, making it a balanced and satisfying meal. Enhanced with caramelized onions, fresh herbs, and a hint of citrus, Chicken Pulao is ideal for both casual dinners and special occasions."
     },
     {
         "CategoryName": "Starter",
         "name": "Onion Rings",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/483773093/photo/onion-rings.jpg?s=612x612&w=0&k=20&c=osyMgoH84zGnm9ogWz_jElBi5upAzCcaeEmL0pST_OI=",
         "options": [
             {
                 "half": "60",
                 "full": "110"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqCrispy and golden-fried onion rings, perfect for snacking and sharing."
+        "description": "Crunch into our Onion Rings, featuring thick slices of onions dipped in a seasoned batter and deep-fried until golden and crispy. These tasty appetizers offer a sweet and savory flavor with a satisfying crunch, making them perfect for snacking or sharing as a starter. Served with a side of zesty dipping sauce, Onion Rings are an irresistible addition to any meal."
     },
     {
         "CategoryName": "Starter",
         "name": "Chicken Satay",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1325058749/photo/bbq-pineapple-chicken-skewers.jpg?s=612x612&w=0&k=20&c=zpqpaIU2UV4UgwlsiapBQZ-Kf0ESZn5NRkLsye4kKlU=",
         "options": [
             {
                 "half": "150",
                 "full": "260"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqGrilled chicken skewers marinated in a flavorful satay sauce, served with a side of peanut sauce."
+        "description": "Our Chicken Satay presents tender chicken skewers marinated in a flavorful blend of spices and grilled to juicy perfection. Served with a rich and creamy peanut sauce, these skewers offer a delicious balance of sweet, savory, and nutty flavors. Perfect as an appetizer or part of a shared platter, Chicken Satay is an enticing starter that brings a touch of Southeast Asian flair to your table."
     },
     {
         "CategoryName": "Starter",
         "name": "Veg Pakora",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/1403687849/photo/moong-dal-spicy-pakora.jpg?s=612x612&w=0&k=20&c=DONhIpjZxgxvL98WQZtgY2_7VUuPygVv2QYRNGxfPnM=",
         "options": [
             {
                 "half": "70",
                 "full": "130"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqAssorted vegetable fritters made with a spiced gram flour batter, deep-fried to perfection."
+        "description": "Enjoy our Veg Pakoras, an assortment of vegetable fritters made with a spiced gram flour batter and deep-fried until golden and crispy. These delightful appetizers offer a mix of textures and flavors, featuring ingredients like onions, potatoes, spinach, and more. Served with tangy chutney or a cooling yogurt dip, Veg Pakoras are a perfect starter for any occasion, providing a satisfying and flavorful bite."
     },
     {
         "CategoryName": "Pizza",
         "name": "BBQ Bacon Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/664823548/photo/meat-lovers-flat-bread-pizza.jpg?s=612x612&w=0&k=20&c=2_JaGl8QpJnUAx95pfLJCGnvsuMYXwswAsRg7bu58uU=",
         "options": [
             {
                 "regular": "120",
@@ -502,12 +502,12 @@
                 "large": "350"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA flavorful pizza with a combination of smoky BBQ sauce, crispy bacon, and melted cheese."
+        "description": "Treat yourself to our BBQ Bacon Pizza, a savory combination of smoky barbecue sauce, crispy bacon strips, and melted cheese spread over a perfectly crisp crust. Enhanced with red onions and a sprinkle of fresh herbs, this pizza delivers a delightful blend of sweet, smoky, and salty flavors in every bite. Ideal for those who crave a bold and indulgent pizza experience with a touch of BBQ goodness."
     },
     {
         "CategoryName": "Pizza",
         "name": "Four Cheese Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/184658387/photo/four-slices-of-different-topped-pizza.jpg?s=612x612&w=0&k=20&c=NcWRxo5IsKkkqr1rhdairXD69AIsayMCzIta4bC3Sns=",
         "options": [
             {
                 "regular": "100",
@@ -515,12 +515,12 @@
                 "large": "320"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA cheese lover's delight, this pizza features a blend of four cheeses for a rich and indulgent experience."
+        "description": "Indulge in our Four Cheese Pizza, a cheese lover's dream come true. Featuring a rich blend of mozzarella, cheddar, parmesan, and gorgonzola cheeses, this pizza offers a creamy and flavorful experience in every bite. Baked on a crisp crust, the melted cheeses create a luscious and indulgent topping that pairs perfectly with a tangy tomato sauce. Perfect for those who appreciate a decadent and cheesy pizza delight."
     },
     {
         "CategoryName": "Pizza",
         "name": "Spinach and Feta Pizza",
-        "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+        "img": "https://media.istockphoto.com/id/185110256/photo/spinach-and-goat-cheese-pizza.jpg?s=612x612&w=0&k=20&c=5mYtynmsRsD43qlsswG12DRJCRzdc0HX7U9xDXFE604=",
         "options": [
             {
                 "regular": "110",
@@ -528,6 +528,6 @@
                 "large": "340"
             }
         ],
-        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqA vegetarian pizza featuring the delightful combination of spinach, feta cheese, and flavorful herbs."
+        "description": "Enjoy our Spinach and Feta Pizza, a delightful vegetarian option that combines the freshness of spinach with the tangy richness of feta cheese. Topped with a blend of mozzarella and feta, and seasoned with aromatic herbs, this pizza offers a harmonious balance of flavors. Baked on a perfectly crisp crust, Spinach and Feta Pizza is a flavorful and satisfying choice for those seeking a nutritious and delicious meal."
     }
 ]

@@ -92,6 +92,12 @@ export default function Cards(props) {
                         <Modal.Title>{props.foodName}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                        <img
+                            src={props.imgSrc}
+                            className="card-img-top"
+                            alt={props.foodName}
+                            style={{ height: "250px", objectFit: "contain" }}
+                        />
                         <p>{props.desc}</p>
                     </Modal.Body>
                     <Modal.Footer>
