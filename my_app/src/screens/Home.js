@@ -39,7 +39,6 @@ export default function Home() {
     <div>
       <Navbar />
 
-      {/* Add top margin or padding to ensure carousel is below the navbar */}
       <div style={{ marginTop: "5px" }}>
         <Carousels search={search} setSearch={setSearch} />
 

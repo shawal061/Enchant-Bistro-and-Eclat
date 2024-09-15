@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Destructuring the Schema from mongoose
 const { Schema } = mongoose;
 
 const UserSchema = new Schema({
