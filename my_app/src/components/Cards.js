@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { useDispatch, useCart } from "./ContextReducer";
 
@@ -7,26 +7,50 @@ export default function Cards(props) {
     let data = useCart();
     let options = props.options;
     let priceOptions = Object.keys(options);
-    const [qty, setQty] = useState(1);
     const [size, setSize] = useState("");
     const [selectedQty, setSelectedQty] = useState(1);
     const [showFullDesc, setShowFullDesc] = useState(false);
+    const [showAddedMessage, setShowAddedMessage] = useState(false);
 
     const handleAddToCart = async () => {
+        const newItem = {
+            id: props._id,
+            name: props.foodName,
+            price: finalPrice,
+            qty: parseInt(selectedQty),
+            size: size,
+            img: props.imgSrc
+        };
+
+        // Dispatch the new item to the cart
         await dispatch({
             type: "ADD",
-            id: props._id,
-            name: props.name,
-            price: props.finalPrice,
-            qty: selectedQty,
-            size: size
+            ...newItem
         });
-        console.log(data);
+
+        // Log the newly added item
+        console.log("Added item:", newItem);
+        console.log("Already in Cart", data);
+        //alert("Item added to cart")
+
+        // Show the "Item added to cart" message
+        setShowAddedMessage(true);
+
+        // Hide the message after 2 seconds
+        setTimeout(() => {
+            setShowAddedMessage(false);
+        }, 2000);
     };
 
     const toggleFullDesc = () => {
         setShowFullDesc(!showFullDesc);
     };
+
+    const priceRef = useRef();
+    let finalPrice = selectedQty * parseInt(options[size]);
+    useEffect(() => {
+        setSize(priceRef.current.value)
+    }, [])
 
     return (
         <div className="mb-4">
@@ -51,19 +75,21 @@ export default function Cards(props) {
                         </button>
                     )}
                     <div className="container w-100 mt-3">
-                        <select
+                        {/* Quantity input */}
+                        <input
+                            type="number"
                             className="m-2 bg-success text-white rounded"
+                            value={selectedQty}
                             onChange={(e) => setSelectedQty(e.target.value)}
-                        >
-                            {Array.from(Array(6), (e, i) => (
-                                <option key={i + 1} value={i + 1}>
-                                    {i + 1}
-                                </option>
-                            ))}
-                        </select>
+                            min="1"
+                            style={{ width: "60px" }}
+                        />
+
+                        {/* Size selection dropdown */}
                         <select
                             className="m-2 bg-success text-white rounded"
                             onChange={(e) => setSize(e.target.value)}
+                            ref={priceRef}
                         >
                             {priceOptions.map((data) => (
                                 <option key={data} value={data}>
@@ -71,7 +97,7 @@ export default function Cards(props) {
                                 </option>
                             ))}
                         </select>
-                        <div className="d-inline fs-5">Total Price</div>
+                        <div className="d-inline fs-5">${finalPrice}/-</div>
                     </div>
                     <hr />
                     <button
@@ -80,6 +106,12 @@ export default function Cards(props) {
                     >
                         Add to Cart
                     </button>
+                    {/* Show the "Item added to cart" message */}
+                    {showAddedMessage && (
+                        <div className="alert alert-success mt-3" role="alert">
+                            Item added to cart!
+                        </div>
+                    )}
                 </div>
             </div>
             {showFullDesc && (
