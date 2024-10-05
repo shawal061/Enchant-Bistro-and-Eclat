@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { useCart } from './ContextReducer';
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -8,6 +9,9 @@ export default function Navbar() {
     localStorage.removeItem("authToken");
     navigate("/");
   };
+
+  // Proud of myself :')
+  const cartLength = useCart().length
 
   return (
     <>
@@ -60,7 +64,7 @@ export default function Navbar() {
               <div>
                 <Link to="/cart" className="btn bg-white text-success mx-2">
                   My Cart {""}
-                  <span class="badge badge-pill badge-primary text-success">5</span>
+                  <span class="badge badge-pill badge-primary text-success">{cartLength}</span>
                 </Link>
                 <div
                   className="btn bg-white text-danger mx-2"

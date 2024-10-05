@@ -11,7 +11,7 @@ export const reducer = (state, action) => {
             if (existingItem) {
                 return state.map((item) =>
                     item.id === action.id && item.size === action.size
-                        ? { ...item, qty: item.qty + Number(action.qty) } // Ensure qty is treated as a number
+                        ? { ...item, qty: item.qty + Number(action.qty) }
                         : item
                 );
             }
@@ -30,6 +30,9 @@ export const reducer = (state, action) => {
                     ? { ...item, qty: parseInt(action.qty) }
                     : item
             );
+
+        case "CLEAR":
+            return []; // Return an empty array to clear the cart
 
         default:
             console.log("Error in Reducer");

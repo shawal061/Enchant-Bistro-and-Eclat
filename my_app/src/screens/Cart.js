@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCart, useDispatch } from "../components/ContextReducer";
 import { Link } from "react-router-dom";
+import CheckOut from "./CheckOut";
 
 export default function Cart() {
     const cartItems = useCart();
     const dispatch = useDispatch();
+
+    // Modal state to show/hide
+    const [showModal, setShowModal] = useState(false);
 
     // Calculate total price
     const totalPrice = cartItems.reduce((total, item) => total + (item.price || 0) * (item.qty || 1), 0);
@@ -23,7 +27,7 @@ export default function Cart() {
 
     return (
         <div className="container mt-5">
-            <Link to="/">
+            <Link to="/" style={{ display: 'inline-block' }}>
                 <img
                     src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"}
                     alt="Logo"
@@ -88,11 +92,20 @@ export default function Cart() {
                         </ul>
                     </div>
 
-                    <div className="col-12 mt-4">
+                    <div className="col-12 mt-4 d-flex flex-column align-items-end">
                         <h4>Total Price: ${totalPrice}</h4>
-                        <button className="btn btn-success">Proceed to Checkout</button>
+                        <button className="btn btn-success mt-2" onClick={() => setShowModal(true)}>
+                            Proceed to Checkout
+                        </button>
                     </div>
                 </div>
+            )}
+            {/* Checkout Modal */}
+            {showModal && (
+                <CheckOut
+                    showModal={showModal}
+                    handleClose={() => setShowModal(false)}
+                />
             )}
         </div>
     );
