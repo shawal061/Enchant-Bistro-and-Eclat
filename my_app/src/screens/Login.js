@@ -114,6 +114,7 @@ export default function Login() {
     if (!json.success) {
       alert("Enter valid credentials!");
     } else {
+      console.log(json.authToken);
       localStorage.setItem("authToken", json.authToken);
       navigate("/");
     }

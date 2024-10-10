@@ -6,6 +6,7 @@ import axios from 'axios';
 import { useCart, useDispatch } from '../components/ContextReducer';
 import { useNavigate } from 'react-router-dom';
 import Spinner from 'react-bootstrap/Spinner';
+import { jwtDecode } from 'jwt-decode';
 
 // Create default icon for marker (Leaflet requires this)
 delete L.Icon.Default.prototype._getIconUrl;
@@ -19,6 +20,18 @@ export default function CheckOut({ showModal, handleClose }) {
     const cartItems = useCart();
     const dispatch = useDispatch();
     const navigate = useNavigate();
+
+    // Get the auth token from localStorage
+    const token = localStorage.getItem('authToken');
+
+    // Decode the token to get the userId
+    let userId = null;
+    if (token) {
+        const decodedToken = jwtDecode(token);
+        userId = decodedToken.user.id;  // Extract the userId from the token payload
+    }
+
+    // console.log('User ID:', userId);
 
     // Calculate total price
     const totalPrice = cartItems.reduce((total, item) => total + (item.price * item.qty), 0);
@@ -58,44 +71,56 @@ export default function CheckOut({ showModal, handleClose }) {
         }
     };
 
-    // SImulate payment
     const handleConfirmAndPay = () => {
-        setLoading(true); // Set loading to true
-        setShowAlert(false); // Hide alert
+        setLoading(true);
+        setShowAlert(false);
 
-        // Log current cart items before payment
-        console.log('Cart items before payment:', sessionStorage.getItem('cart'));
+        // Validation checks for required fields
+        if (!contact || !email || (!manualAddress && !selectedAddress)) {
+            setAlertMessage('Please fill in all required fields: Contact, Email, and Address.');
+            setShowAlert(true);
+            setLoading(false); // Stop loading
+            return; // Exit the function early
+        }
 
-        // Simulate a payment process
         const paymentPromise = new Promise((resolve) => {
             setTimeout(() => {
                 resolve("Payment successful");
-            }, 5000); // Simulate a 5-second payment processing time
+            }, 5000);
         });
 
         paymentPromise
             .then(() => {
-                // Show success message
-                setAlertMessage('Your order has been placed!');
-                setShowAlert(true);
+                // Save the order to the database with userId
+                axios.post('http://localhost:5000/api/save-order', {
+                    userId,
+                    items: cartItems,
+                    totalPrice,
+                    address: selectedAddress || manualAddress,
+                    // yay :')
+                    size: cartItems.size,
+                })
+                    .then(response => {
+                        // Handle success response if needed
+                        setAlertMessage('Your order has been placed!');
+                        setShowAlert(true);
+                    })
+                    .catch(error => {
+                        console.error('Error response from server:', error.response);
+                        setAlertMessage('There was an error saving your order. Please try again.');
+                        setShowAlert(true);
+                    });
 
                 // Clear cart items from sessionStorage
                 sessionStorage.removeItem('cart');
-
-                // Clear the cart from context state
-                dispatch({ type: "CLEAR" }); // Ensure you add a CLEAR case to your reducer
-
-                // Log current cart items after clearing
-                console.log('Cart items after clearing:', sessionStorage.getItem('cart'));
+                dispatch({ type: "CLEAR" });
             })
             .catch((error) => {
                 setAlertMessage('There was an error processing your payment. Please try again.');
                 setShowAlert(true);
             })
             .finally(() => {
-                setLoading(false); // Set loading to false after processing
-
-                // Wait for 1 seconds before closing the modal and redirecting
+                setLoading(false);
                 setTimeout(() => {
                     handleClose();
                     navigate('/');

@@ -39,15 +39,6 @@ export default function Navbar() {
                   </span>
                 </li>
               </Link>
-              {localStorage.getItem("authToken") ? (
-                <li className="nav-item">
-                  <Link className="btn bg-white text-success mx-1" to="/signup">
-                    My orders
-                  </Link>
-                </li>
-              ) : (
-                ""
-              )}
             </ul>
 
             {!localStorage.getItem("authToken") ? (
@@ -62,6 +53,7 @@ export default function Navbar() {
               </div>
             ) : (
               <div>
+                <Link to="/order-history" className="btn bg-white text-success mx-2">Order History</Link>
                 <Link to="/cart" className="btn bg-white text-success mx-2">
                   My Cart {""}
                   <span class="badge badge-pill badge-primary text-success">{cartLength}</span>
