@@ -47,4 +47,36 @@ router.get('/order-history', async (req, res) => {
     }
 });
 
+// POST: Reorder
+router.post('/reorder', async (req, res) => {
+    const token = req.header('authToken'); // Expect the authToken from the client
+    if (!token) {
+        return res.status(401).json({ message: 'Unauthorized access' });
+    }
+
+    try {
+        // Verify token and get user info
+        const decoded = jwt.verify(token, jwtSecret);
+        const userId = decoded.user.id;
+
+        const { items, totalPrice, address, size } = req.body;
+
+        // Create new order
+        const newOrder = new Order({
+            userId,
+            items,
+            totalPrice,
+            address,
+            size,
+        });
+
+        await newOrder.save();
+
+        res.status(200).json({ success: true, message: 'Reorder placed successfully' });
+    } catch (error) {
+        console.error('Error placing reorder:', error);
+        res.status(500).json({ message: 'Error placing reorder', error });
+    }
+});
+
 module.exports = router;

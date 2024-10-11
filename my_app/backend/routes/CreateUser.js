@@ -76,7 +76,9 @@ router.post("/loginuser", [
 
         const data = {
             user: {
-                id: userData.id
+                id: userData.id,
+                // Passing the username as well in the jwt payload field
+                name: userData.name
             }
         };
 

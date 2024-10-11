@@ -2,6 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from './ContextReducer';
 
+import { jwtDecode } from 'jwt-decode';
+
 export default function Navbar() {
   const navigate = useNavigate();
 
@@ -12,6 +14,14 @@ export default function Navbar() {
 
   // Proud of myself :')
   const cartLength = useCart().length
+
+  // Again very much proud of myself :')
+  let userName = null;
+  const token = localStorage.getItem("authToken");
+  if (token) {
+    const decodedToken = jwtDecode(token);
+    userName = decodedToken.user.name;
+  }
 
   return (
     <>
@@ -40,6 +50,10 @@ export default function Navbar() {
                 </li>
               </Link>
             </ul>
+
+            {localStorage.getItem("authToken")
+              ? <span className="mx-5 fs-5">Welcome <strong>{userName}</strong>!</span>
+              : ""}
 
             {!localStorage.getItem("authToken") ? (
               <div className="d-flex">

@@ -12,52 +12,26 @@ export default function OrderHistory() {
             const token = localStorage.getItem('authToken');
             if (!token) {
                 navigate('/login'); // Redirect to login if no token found
-                return; // Ensure we exit early if no token
+                return;
             }
 
             try {
                 const response = await axios.get('http://localhost:5000/api/order-history', {
                     headers: {
-                        authToken: token, // Send token in headers
+                        authToken: token,
                     },
                 });
-                // console.log('Order History Response:', response.data);
                 setOrders(response.data);
             } catch (error) {
                 console.error('Error fetching order history:', error);
                 if (error.response) {
                     setErrorMessage('Error fetching order history. Please try again later.');
                     if (error.response.status === 401) {
-                        // Token is invalid or expired
-                        localStorage.removeItem('authToken'); // Clear token
+                        localStorage.removeItem('authToken');
                         navigate('/login');
                     }
                 } else {
                     setErrorMessage('Network error. Please check your connection.');
-                } try {
-                    const response = await axios.get('http://localhost:5000/api/order-history', {
-                        headers: {
-                            authToken: token,
-                        },
-                    });
-                    console.log('Order History Response:', response.data);
-                    if (response.data.length === 0) {
-                        setErrorMessage('No orders found for this user.');
-                    } else {
-                        setOrders(response.data);
-                    }
-                } catch (error) {
-                    console.error('Error fetching order history:', error);
-                    if (error.response) {
-                        setErrorMessage('Error fetching order history. Please try again later.');
-                        if (error.response.status === 401) {
-                            // Token is invalid or expired
-                            localStorage.removeItem('authToken');
-                            navigate('/login');
-                        }
-                    } else {
-                        setErrorMessage('Network error. Please check your connection.');
-                    }
                 }
             }
         };
@@ -65,33 +39,80 @@ export default function OrderHistory() {
         fetchOrderHistory();
     }, [navigate]);
 
-    // Handle case when there are no orders
+    // Handle reorder button click (send request to reorder the same items)
+    const handleReorder = async (order) => {
+        console.log('Reordering for order ID:', order);
+        const token = localStorage.getItem('authToken');
+        if (!token) {
+            navigate('/login');
+            return;
+        }
+
+        try {
+            const response = await axios.post('http://localhost:5000/api/reorder', {
+                userId: order.userId, // Include the userId, fetched from the current order
+                items: order.items,   // Send the same items
+                totalPrice: order.totalPrice,
+                address: order.address,
+                size: order.size,
+            }, {
+                headers: {
+                    authToken: token, // Pass the token to authenticate the reorder request
+                },
+            });
+
+            if (response.data.success) {
+                alert('Reorder successful!');
+            }
+        } catch (error) {
+            console.error('Error reordering:', error);
+            alert('Failed to reorder. Please try again.');
+        }
+    };
+
     if (errorMessage) {
         return <p>{errorMessage}</p>;
     }
 
     if (orders.length === 0) {
-        return <p>No order history found.</p>;
+        return (
+            <div className="container mt-5">
+                <h2 className="text-center mb-4">Your Order History</h2>
+                <p>No order history found.</p>
+            </div>
+        )
     }
 
     return (
         <div className="container mt-5">
-            <h2>Your Order History</h2>
-            <ul className="list-group mt-4">
+            <h2 className="text-center mb-4">Your Order History</h2>
+            <ul className="list-group">
                 {orders.map((order) => (
-                    <li key={order._id} className="list-group-item">
-                        <h5>Order Date: {new Date(order.date).toLocaleDateString()}</h5>
-                        <p>Total Price: ${order.totalPrice}</p>
-                        <p>Delivery Address: {order.address}</p>
+                    <li key={order._id} className="list-group-item mb-3 shadow-sm p-3">
+                        <div className="order-summary">
+                            <h5 className="mb-3">Order Date: {new Date(order.date).toLocaleDateString()}</h5>
+                            <p><strong>Total Price:</strong> ${order.totalPrice}</p>
+                            <p><strong>Delivery Address:</strong> {order.address}</p>
+                        </div>
 
-                        <h6>Items Ordered:</h6>
-                        <ul>
-                            {order.items.map((item, index) => (
-                                <li key={index}>
-                                    {item.name} (x{item.qty}) - ${item.price} ({item.size})
-                                </li>
-                            ))}
-                        </ul>
+                        <div className="order-items">
+                            <h6>Items Ordered:</h6>
+                            <ul className="list-group mb-3">
+                                {order.items.map((item, index) => (
+                                    <li key={index} className="list-group-item">
+                                        {item.name} (x{item.qty}) - ${item.price} ({item.size || 'N/A'})
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        {/* Reorder Button */}
+                        <button
+                            className="btn btn-success"
+                            onClick={() => handleReorder(order)}
+                        >
+                            Reorder
+                        </button>
                     </li>
                 ))}
             </ul>
