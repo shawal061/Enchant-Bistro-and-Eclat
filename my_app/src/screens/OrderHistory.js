@@ -1,47 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export default function OrderHistory() {
     const [orders, setOrders] = useState([]);
     const [errorMessage, setErrorMessage] = useState('');
+    const [orderMessage, setOrderMessage] = useState(null);
+    const [loadingOrderId, setLoadingOrderId] = useState(null);
     const navigate = useNavigate();
 
-    useEffect(() => {
-        const fetchOrderHistory = async () => {
-            const token = localStorage.getItem('authToken');
-            if (!token) {
-                navigate('/login'); // Redirect to login if no token found
-                return;
-            }
+    const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-            try {
-                const response = await axios.get('http://localhost:5000/api/order-history', {
-                    headers: {
-                        authToken: token,
-                    },
-                });
-                setOrders(response.data);
-            } catch (error) {
-                console.error('Error fetching order history:', error);
-                if (error.response) {
-                    setErrorMessage('Error fetching order history. Please try again later.');
-                    if (error.response.status === 401) {
-                        localStorage.removeItem('authToken');
-                        navigate('/login');
-                    }
-                } else {
-                    setErrorMessage('Network error. Please check your connection.');
-                }
-            }
-        };
-
-        fetchOrderHistory();
-    }, [navigate]);
-
-    // Handle reorder button click (send request to reorder the same items)
-    const handleReorder = async (order) => {
-        console.log('Reordering for order ID:', order);
+    const fetchOrderHistory = useCallback(async () => {
         const token = localStorage.getItem('authToken');
         if (!token) {
             navigate('/login');
@@ -49,24 +19,68 @@ export default function OrderHistory() {
         }
 
         try {
+            const response = await axios.get('http://localhost:5000/api/order-history', {
+                headers: {
+                    authToken: token,
+                },
+            });
+            setOrders(response.data);
+        } catch (error) {
+            console.error('Error fetching order history:', error);
+            if (error.response) {
+                setErrorMessage('Error fetching order history. Please try again later.');
+                if (error.response.status === 401) {
+                    localStorage.removeItem('authToken');
+                    navigate('/login');
+                }
+            } else {
+                setErrorMessage('Network error. Please check your connection.');
+            }
+        }
+    }, [navigate]);
+
+    useEffect(() => {
+        fetchOrderHistory();
+    }, [fetchOrderHistory]);
+
+    const handleReorder = async (order) => {
+        const token = localStorage.getItem('authToken');
+        if (!token) {
+            navigate('/login');
+            return;
+        }
+
+        setLoadingOrderId(order._id);
+        setOrderMessage(null);
+
+        await delay(3000);
+
+        try {
             const response = await axios.post('http://localhost:5000/api/reorder', {
-                userId: order.userId, // Include the userId, fetched from the current order
-                items: order.items,   // Send the same items
+                userId: order.userId,
+                items: order.items,
                 totalPrice: order.totalPrice,
                 address: order.address,
                 size: order.size,
             }, {
                 headers: {
-                    authToken: token, // Pass the token to authenticate the reorder request
+                    authToken: token,
                 },
             });
 
             if (response.data.success) {
-                alert('Reorder successful!');
+                setOrderMessage({ orderId: order._id, type: 'success', message: 'Reorder successful!' });
+                // Proud :')
+                // setLoadingOrderId(null);  // Clear loading state after processing
+                await delay(3000);
+                setOrderMessage(null);
+                fetchOrderHistory();  // Refetch order history to update the UI
             }
         } catch (error) {
             console.error('Error reordering:', error);
-            alert('Failed to reorder. Please try again.');
+            setOrderMessage({ orderId: order._id, type: 'error', message: 'Failed to reorder. Please try again.' });
+        } finally {
+            setLoadingOrderId(null);  // Clear loading state after processing
         }
     };
 
@@ -77,7 +91,21 @@ export default function OrderHistory() {
     if (orders.length === 0) {
         return (
             <div className="container mt-5">
-                <h2 className="text-center mb-4">Your Order History</h2>
+                <div className="d-flex align-items-center">
+                    <span>
+                        <Link to="/">
+                            <img
+                                src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"}
+                                alt="Logo"
+                                className="navbar-brand"
+                                style={{ maxWidth: "75px", maxHeight: "75px" }}
+                            />
+                        </Link>
+                    </span>
+                    <span>
+                        <h2 className="text-center" style={{ marginLeft: "425px" }}>Your Order History</h2>
+                    </span>
+                </div>
                 <p>No order history found.</p>
             </div>
         )
@@ -85,7 +113,29 @@ export default function OrderHistory() {
 
     return (
         <div className="container mt-5">
-            <h2 className="text-center mb-4">Your Order History</h2>
+            <div className="d-flex align-items-center">
+                <span>
+                    <Link to="/">
+                        <img
+                            src={process.env.PUBLIC_URL + "/logo/Clear Logo.png"}
+                            alt="Logo"
+                            className="navbar-brand"
+                            style={{ maxWidth: "75px", maxHeight: "75px" }}
+                        />
+                    </Link>
+                </span>
+                <span>
+                    <h2 className="text-center" style={{ marginLeft: "425px" }}>Your Order History</h2>
+                </span>
+            </div>
+
+            {/* Toast-like notification for reorder success/error */}
+            {orderMessage && (
+                <div className={`alert alert-${orderMessage.type === 'success' ? 'success' : 'danger'} text-center`}>
+                    {orderMessage.message}
+                </div>
+            )}
+
             <ul className="list-group">
                 {orders.map((order) => (
                     <li key={order._id} className="list-group-item mb-3 shadow-sm p-3">
@@ -110,8 +160,9 @@ export default function OrderHistory() {
                         <button
                             className="btn btn-success"
                             onClick={() => handleReorder(order)}
+                            disabled={loadingOrderId === order._id}  // Disable button while processing
                         >
-                            Reorder
+                            {loadingOrderId === order._id ? 'Processing...' : 'Reorder'}
                         </button>
                     </li>
                 ))}

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { useDispatch, useCart } from "./ContextReducer";
+import { useNavigate } from 'react-router-dom';
 
 export default function Cards(props) {
     let dispatch = useDispatch();
@@ -11,6 +12,7 @@ export default function Cards(props) {
     const [selectedQty, setSelectedQty] = useState(1);
     const [showFullDesc, setShowFullDesc] = useState(false);
     const [showAddedMessage, setShowAddedMessage] = useState(false);
+    const navigate = useNavigate();
 
     const handleAddToCart = async () => {
         const newItem = {
@@ -78,39 +80,62 @@ export default function Cards(props) {
                         {/* Quantity input */}
                         <input
                             type="number"
-                            className="m-2 bg-success text-white rounded"
+                            className="m-2"
                             value={selectedQty}
                             onChange={(e) => setSelectedQty(e.target.value)}
                             min="1"
-                            style={{ width: "60px" }}
+                            style={{
+                                width: "50px",
+                                height: "38px",
+                                padding: "5px",
+                                textAlign: "center",
+                                borderRadius: "4px",
+                            }}
                         />
 
                         {/* Size selection dropdown */}
                         <select
-                            className="m-2 bg-success text-white rounded"
+                            className="m-2"
                             onChange={(e) => setSize(e.target.value)}
                             ref={priceRef}
+                            style={{
+                                width: "100px",
+                                height: "38px",
+                                padding: "5px",
+                                textAlign: "center",
+                                borderRadius: "4px",
+                            }}
                         >
                             {priceOptions.map((data) => (
-                                <option key={data} value={data}>
+                                <option key={data} value={data} style={{ textAlign: "left" }}>
                                     {data}
                                 </option>
                             ))}
                         </select>
-                        <div className="d-inline fs-5">${finalPrice}/-</div>
+                        <div className="d-inline fs-5 fw-bold">${finalPrice}/-</div>
                     </div>
                     <hr />
-                    <button
-                        className="btn btn-success"
-                        onClick={handleAddToCart}
-                    >
-                        Add to Cart
-                    </button>
-                    {/* Show the "Item added to cart" message */}
-                    {showAddedMessage && (
-                        <div className="alert alert-success mt-3" role="alert">
-                            Item added to cart!
-                        </div>
+                    {localStorage.getItem("authToken") ? (
+                        <>
+                            <button
+                                className="btn btn-success"
+                                onClick={handleAddToCart}
+                            >
+                                Add to Cart
+                            </button>
+                            {showAddedMessage && (
+                                <div className="alert alert-success mt-3" role="alert">
+                                    Item added to cart!
+                                </div>
+                            )}
+                        </>
+                    ) : (
+                        <button
+                            className="btn btn-success"
+                            onClick={() => { navigate("/login") }}
+                        >
+                            Login to add to your cart
+                        </button>
                     )}
                 </div>
             </div>

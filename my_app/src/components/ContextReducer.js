@@ -24,7 +24,6 @@ export const reducer = (state, action) => {
 
         case "UPDATE_QTY":
             // Update the quantity of the item
-            // Update the quantity of the item
             return state.map((item) =>
                 item.id === action.id && item.size === action.size
                     ? { ...item, qty: parseInt(action.qty) }
